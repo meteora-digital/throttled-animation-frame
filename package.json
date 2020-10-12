@@ -22,5 +22,13 @@
   "bugs": {
     "url": "https://github.com/meteora-digital/throttled-animation-frame/issues"
   },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.11.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-plumber": "^1.2.1"
+  },
   "homepage": "https://github.com/meteora-digital/throttled-animation-frame#readme"
 }
