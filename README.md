@@ -1,5 +1,6 @@
 # Throttled Animation Frame
 
+An ES6 class to throttle the window.requestAnimationFrame to a specific FPS
 
 ## Installation
 
