@@ -1,6 +1,6 @@
 {
   "name": "throttled-animation-frame",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An ES6 class to throttle the window.requestAnimationFrame to a specific FPS",
   "main": "dist/js/throttled-animation-frame.js",
   "scripts": {
