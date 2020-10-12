@@ -1,46 +1,25 @@
-# Equalizer
+# Throttled Animation Frame
 
-Equalizer is an es6 Class which can be used to easily match the height of multiple elements using names to isolate matching groups.
 
 ## Installation
 
 with webpack
 
 ```bash
-yarn add @meteora-digital/equalizer
+yarn add throttle-animation-frame
 ```
 
-## HTML Usage
+```javascript
+import ThrottledAnimationFrame from 'throttled-animation-frame';
 
-```html
-<section data-equalize>
-  <div data-equalize-watch></div>
-  <div data-equalize-watch></div>
-</section>
-```
-## Or
-```html
-<section data-equalize="selector">
-  <div data-equalize-watch="selector"></div>
-  <div data-equalize-watch="selector"></div>
-</section>
-```
-## Or
-```html
-<section data-equalize="selector1, selector2">
-  <div data-equalize-watch="selector1">
-    <div data-equalize-watch="selector2"></div>
-  </div>
-  <div data-equalize-watch="selector1">
-    <div data-equalize-watch="selector2"></div>
-  </div>
-</section>
-```
+// We pass in the FPS that we would like our animation to run at.
+const animator = new ThrottledAnimationFrame(60);
 
-```es6
-import Equalizer from '@meteora-digital/equalizer';
+// Then call the .start() method, passing in the function we would like to run on each frame.
+animator.start(() => yourFunction());
 
-document.querySelectorAll('[data-equalize]').forEach((group) => new Equalizer(group));
+// Once we would like to stop the animation, simply call
+animator.stop();
 ```
 
 ## License

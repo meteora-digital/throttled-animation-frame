@@ -1,0 +1,26 @@
+{
+  "name": "throttled-animation-frame",
+  "version": "1.0.0",
+  "description": "An ES6 class to throttle the window.requestAnimationFrame to a specific FPS",
+  "main": "dist/js/throttled-animation-frame.js",
+  "scripts": {
+    "test": "echo \"Throttled Animation Frame\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meteora-digital/throttled-animation-frame.git"
+  },
+  "keywords": [
+    "ES6",
+    "requestAnimationFrame",
+    "throttle",
+    "animation",
+    "fps"
+  ],
+  "author": "Emmanuel Davies",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meteora-digital/throttled-animation-frame/issues"
+  },
+  "homepage": "https://github.com/meteora-digital/throttled-animation-frame#readme"
+}
