@@ -4,10 +4,11 @@ An ES6 class to throttle the window.requestAnimationFrame to a specific FPS
 
 ## Installation
 
-with webpack
-
 ```bash
-yarn add throttle-animation-frame
+yarn add throttled-animation-frame
+```
+```bash
+npm i throttled-animation-frame
 ```
 
 ```javascript
