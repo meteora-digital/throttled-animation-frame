@@ -4,7 +4,7 @@
   "description": "An ES6 class to throttle the window.requestAnimationFrame to a specific FPS",
   "main": "dist/js/throttled-animation-frame.js",
   "scripts": {
-    "test": "echo \"Throttled Animation Frame\""
+    "test": "npm i && gulp"
   },
   "repository": {
     "type": "git",
