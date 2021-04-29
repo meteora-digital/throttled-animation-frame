@@ -11,6 +11,8 @@ yarn add throttled-animation-frame
 npm i throttled-animation-frame
 ```
 
+## Usage
+
 ```javascript
 import ThrottledAnimationFrame from 'throttled-animation-frame';
 
